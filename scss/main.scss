@@ -1,0 +1,18 @@
+@import "work";
+@import "about";
+@import "contact";
+@import "normalize";
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1; /* ie 6/7 */
+}

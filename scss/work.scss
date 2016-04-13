@@ -68,14 +68,16 @@ header{
     
     a{
     	display: block;
-    	padding-top: 100%;
-    	width: 100%;
-    	position: relative;
-    	overflow: hidden;
+	    padding-top: 100%;
+	    width: 100%;
+	    position: relative;
+	    overflow: hidden;
+	    color: #fff;
+	    font-weight: 100;
 			
 		span{
 			display: block;
-			background: rgba(0, 52, 99, 0.5);
+			background: rgba(0, 52, 99, 0.8);
 			padding: 30px;
 			position: absolute;
 			bottom: 0;
@@ -147,6 +149,12 @@ header{
 		margin-right: 0;
 	}
 
+}
+
+.box_1{
+	background-image: url(../img/sccff_bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 @media screen and (min-width: 650px){

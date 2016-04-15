@@ -5,6 +5,9 @@ body {
   margin: 0 auto;
   max-width: 85%; }
 
+.resume {
+  width: 100%; }
+
 header {
   text-transform: uppercase; }
   header h1 {
@@ -134,6 +137,9 @@ header {
     padding: 2% 10%; }
     .intro p {
       width: 45%; } }
+.resume {
+  width: 100%; }
+
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.

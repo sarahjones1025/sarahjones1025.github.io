@@ -1,5 +1,7 @@
 body{
 	font-family: Helvetica, sans-serif;
+	position: relative;
+	padding-bottom: 40px;
 }
 
 .wrapper{
@@ -116,11 +118,21 @@ header{
 	}
 }
 
+footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 40px;
+}
+
 .lower_nav{
 	background-color: #f8f2f2;
 	font-size: .75em;
 	padding: 2% 7.5%;
 }
+
+
 
 @media screen and (min-width: 630px){
 	

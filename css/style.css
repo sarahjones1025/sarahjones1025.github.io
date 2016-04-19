@@ -1,5 +1,7 @@
 body {
-  font-family: Helvetica, sans-serif; }
+  font-family: Helvetica, sans-serif;
+  position: relative;
+  padding-bottom: 40px; }
 
 .wrapper {
   margin: 0 auto; }
@@ -78,6 +80,13 @@ header {
     line-height: 1.5;
     font-weight: 100; }
 
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px; }
+
 .lower_nav {
   background-color: #f8f2f2;
   font-size: .75em;
@@ -143,6 +152,24 @@ header {
       width: 45%; } }
 .resume {
   width: 100%; }
+
+.contact_details {
+  padding: 3%; }
+  .contact_details h2 {
+    font-weight: 100;
+    text-transform: uppercase; }
+  .contact_details h3 {
+    font-weight: 100; }
+  .contact_details ul {
+    padding-left: 0;
+    text-align: center;
+    margin-top: 50px; }
+  .contact_details li {
+    display: inline-block; }
+  .contact_details a {
+    padding: 10px; }
+  .contact_details img {
+    height: 20px; }
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**

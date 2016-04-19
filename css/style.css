@@ -2,8 +2,7 @@ body {
   font-family: Helvetica, sans-serif; }
 
 .wrapper {
-  margin: 0 auto;
-  max-width: 85%; }
+  margin: 0 auto; }
 
 .resume {
   width: 100%; }
@@ -16,6 +15,8 @@ header {
     font-size: 2.5em;
     font-weight: 100;
     text-align: center; }
+  header a {
+    text-decoration: none; }
   header h2 {
     color: #c71d3d;
     margin: 10px 0;
@@ -83,6 +84,9 @@ header {
   padding: 2% 7.5%; }
 
 @media screen and (min-width: 630px) {
+  .wrapper {
+    max-width: 85%; }
+
   header h1 {
     text-align: left; }
   header h2 {
@@ -121,7 +125,7 @@ header {
       margin-bottom: 0; }
 
   .wrapper {
-    max-width: 80%; }
+    max-width: 866px; }
 
   .content {
     width: 31.3%;
@@ -495,6 +499,224 @@ td,
 th {
   padding: 0; }
 
+.wrapper {
+  position: relative; }
+
+#sccff_wrapper {
+  margin: 0; }
+
+.page_headline {
+  background-color: #ffd06b;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: 100;
+  font-size: 1.5em;
+  padding: 10%;
+  position: relative;
+  margin: 30px 0 0 0;
+  box-sizing: border-box;
+  text-align: center; }
+
+.project_intro {
+  text-align: center;
+  position: relative;
+  font-weight: 100;
+  margin-bottom: 50px; }
+  .project_intro h2 {
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 50px; }
+  .project_intro h3 {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: .9em;
+    margin-bottom: 5px;
+    margin-left: 10px; }
+  .project_intro p {
+    text-align: left;
+    font-size: .9em;
+    margin: 0 0 30px 20px;
+    font-style: italic; }
+  .project_intro ul {
+    padding-left: 0;
+    text-align: left;
+    margin-left: 20px; }
+    .project_intro ul:last-child {
+      margin-top: 0; }
+  .project_intro li {
+    list-style: none;
+    font-size: 0.8em; }
+  .project_intro nav {
+    background-color: #ff8870;
+    margin-bottom: 50px; }
+  .project_intro a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 100;
+    padding: 15px 0;
+    display: inline-block;
+    margin-right: 10px; }
+    .project_intro a:hover {
+      color: #ffd06b; }
+
+.scope {
+  text-align: center; }
+
+.ui p {
+  margin-bottom: 10px; }
+
+.discovery {
+  font-weight: 100;
+  margin-bottom: 50px; }
+  .discovery h2 {
+    font-weight: 100;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2em; }
+  .discovery a {
+    text-align: left;
+    font-size: 1em;
+    margin-bottom: 5px; }
+  .discovery p {
+    margin-top: 0;
+    line-height: 1.5;
+    padding: 3%;
+    font-size: 0.8em; }
+
+#outer_list {
+  padding: 1% 0;
+  padding-left: 0;
+  background-color: #ccc;
+  position: relative; }
+  #outer_list li {
+    list-style: none;
+    margin: 10px;
+    border-bottom: dotted 1px #444; }
+    #outer_list li:last-child {
+      border: none; }
+  #outer_list a {
+    color: #444;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 5px; }
+    #outer_list a:hover {
+      color: #fff; }
+  #outer_list p {
+    background-color: transparent; }
+
+.wireframes {
+  text-align: center;
+  margin-bottom: 50px; }
+  .wireframes h2 {
+    font-weight: 100;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2em; }
+  .wireframes img {
+    width: 95%; }
+
+.thumbnails {
+  margin-bottom: 50px; }
+  .thumbnails h2 {
+    font-weight: 100;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2em; }
+
+.mockups {
+  text-align: center;
+  margin-bottom: 50px; }
+  .mockups h2 {
+    font-weight: 100;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2em; }
+  .mockups img {
+    width: 95%; }
+
+.development {
+  text-align: center;
+  margin-bottom: 50px; }
+  .development h2 {
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 0.2em; }
+  .development h3 {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 0.9em;
+    text-transform: uppercase; }
+  .development p {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 0.9em;
+    line-height: 1.5; }
+  .development img {
+    width: 95%; }
+
+@media screen and (min-width: 630px) {
+  .page_headline {
+    padding: 5%; }
+
+  .project_intro h3 {
+    text-align: center;
+    margin-left: 0; }
+  .project_intro p {
+    text-align: center;
+    margin-left: 0; }
+  .project_intro ul {
+    text-align: center;
+    margin-left: 0; }
+  .project_intro a {
+    padding: 15px; }
+
+  .scope h3 {
+    margin-left: 0; }
+
+  .ux, .ui, .dev {
+    float: left;
+    width: 33%;
+    text-align: center; }
+
+  .wireframes img {
+    width: 100%; }
+  .wireframes h3 {
+    margin-left: 0; }
+  .wireframes p {
+    margin-left: 0; }
+
+  .thumbnails img {
+    width: 100%; }
+  .thumbnails h3 {
+    margin-left: 0; }
+  .thumbnails p {
+    margin-left: 0; }
+
+  .mockups img {
+    width: 100%; }
+  .mockups h3 {
+    margin-left: 0; }
+  .mockups p {
+    margin-left: 0; }
+
+  .development img {
+    width: 100%; }
+  .development h3 {
+    margin-left: 0; }
+  .development p {
+    margin-left: 0; }
+
+  .html5, .sass, .js_jq {
+    float: left;
+    width: 32.6%;
+    margin-right: 1%; }
+
+  .js_jq {
+    margin-right: 0; } }
 .clearfix:before,
 .clearfix:after {
   content: "";

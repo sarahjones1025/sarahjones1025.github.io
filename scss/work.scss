@@ -4,7 +4,6 @@ body{
 
 .wrapper{
 	margin: 0 auto;
-	max-width: 85%;
 }
 
 .resume{
@@ -13,6 +12,7 @@ body{
 
 header{
 	text-transform: uppercase;
+	
 	h1{
 		color: #444;
 	    margin: 10px 0;
@@ -20,6 +20,11 @@ header{
 	    font-weight: 100;
 	    text-align: center;
 	}
+
+	a{
+		text-decoration: none;
+	}
+
 	h2{
 		color: #c71d3d;
 		margin: 10px 0;
@@ -119,6 +124,10 @@ header{
 
 @media screen and (min-width: 630px){
 	
+	.wrapper{
+		max-width: 85%;
+	}
+
 	header{
 		h1{
 		    text-align: left;
@@ -177,7 +186,7 @@ header{
 	}
 
 	.wrapper{
-		max-width: 80%;
+		max-width: 866px;
 	}
 
 	.content{

@@ -71,6 +71,16 @@ header {
     .content a:hover span {
       bottom: 0; }
 
+.box_1 {
+  background-image: url(../img/handheld_mobile.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.box_2 {
+  background-image: url(../img/marvel_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
 .intro {
   background-color: #fcfafa;
   padding: 2% 7.5%; }
@@ -140,11 +150,6 @@ footer {
     float: right;
     width: 50%;
     margin-top: 10px; } }
-.box_1 {
-  background-image: url(../img/handheld_mobile.jpg);
-  background-size: cover;
-  background-repeat: no-repeat; }
-
 @media screen and (min-width: 1020px) {
   .wrapper {
     max-width: 900px; }

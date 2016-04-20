@@ -9,7 +9,7 @@ trigger.on( "click", function( e ){
     
 	contents.not(selector).hide();
 
-    $( selector ).fadeToggle( 300 );
+    $( selector ).fadeToggle( 500 );
 
     if ( $( window ).height() < 600 ) {
 		$( document.body ).scrollTop( $( selector ).offset().top - 130 );

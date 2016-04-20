@@ -121,34 +121,26 @@
 #outer_list{
 	padding: 1% 0;
     padding-left: 0;
-    background-color: #ccc;
     position: relative;
-    // left: -10%;
-    // width: 120%;
 	
 	li{
 		list-style: none;
-		margin: 10px;
-		border-bottom: dotted 1px #444; 
-		
-		&:last-child{
-			border: none;
-		}
+		background-color: rgba(45, 45, 45, 0.7);
 	}
 
 	a{
-		color: #444;
+		color: #fff;
 		text-decoration: none;
 		display: block;
 		text-align: center;
-		padding: 5px;
-		&:hover{
-			color: #fff;
-		}
+		padding: 20px;
 	}
 
 	p{
-		background-color: transparent;
+		color: #fff;
+		padding: 0 20px 20px 20px;
+		margin-bottom: 5px;
+
 	}
 }
 
@@ -328,6 +320,20 @@
 	
 	.js_jq{
 		margin-right: 0;
+	}
+
+	#outer_list{
+		a{
+			text-align: left;
+			padding-left: 40px;
+			transition-property: padding-left;
+			transition-duration: .3s;
+
+			&:hover{
+				padding-left: 50px;
+				background-color: #c71d3d;
+			}
+		}
 	}
 }
 

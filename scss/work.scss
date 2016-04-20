@@ -38,7 +38,8 @@ header{
 
 .top_nav{
 	text-align: center;
-    background-color: #c71d3d;
+	 background-color: rgba(45,45,45,0.7);
+    // background-color: #c71d3d;
     padding: 5px 0;
     margin-bottom: 10px;
   
@@ -57,7 +58,6 @@ header{
 
 			a{
 				margin-right: 0;
-				padding-right: 0;
 			}
 		}
 	}
@@ -68,8 +68,6 @@ header{
 	    color: #fff;
 	    font-weight: 100;
 	    padding: 5px 10px;
-
-	    
 	}
 }
 
@@ -88,11 +86,12 @@ header{
 			
 		span{
 			display: block;
-			background: rgba(0, 52, 99, 0.8);
-			padding: 30px;
-			position: absolute;
-			bottom: 0;
-			width: 100%;
+		    background: rgba(45,45,45,0.7);
+		    padding: 25px;
+		    position: absolute;
+		    bottom: 0;
+		    width: 100%;
+		    box-sizing: border-box;
 		}
 
     	&:hover{
@@ -155,6 +154,15 @@ footer{
 		background-color: #fff;
 		a{
 			color: #c71d3d;
+			transition: box-shadow 1s, background-color 1s, color 1s; 
+
+			&:hover{
+				background-color: #c71d3d;
+				color: #fff;
+				box-shadow: 1px 8px 8px rgba(45,45,45,0.3);
+
+			}
+
 		}
 	}
 
@@ -182,15 +190,11 @@ footer{
 	background-repeat: no-repeat;
 }
 
-@media screen and (min-width: 650px){
-	.wrapper{
-		max-width: 85%;
-	}
-}
-
 @media screen and (min-width: 1020px){
+	
 	header{
 		margin-bottom: 30px;
+		
 		h1{
 			font-size: 3em;
 			margin-bottom: 0;
@@ -223,6 +227,23 @@ footer{
 	
 }
 
+// Wiggle Effect//
+
+@-webkit-keyframes wiggle {
+	0% {
+		-webkit-transform:rotate(4deg);
+	}
+	50% {
+		-webkit-transform:rotate(-4deg);
+	}
+	100% {
+		-webkit-transform:rotate(4deg);
+	}
+}
+ 
+.wiggle:hover {
+	-webkit-animation: wiggle 0.7s infinite;
+}
 
 
 

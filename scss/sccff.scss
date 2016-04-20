@@ -6,6 +6,15 @@
 	margin: 0;
 }
 
+.splash_img{
+	width: 100%;
+}
+
+.top_img{
+	position: relative;
+	top: -10px;
+}
+
 .page_headline{
     background-color: #ffd06b;
     color: #fff;
@@ -25,6 +34,7 @@
 	position: relative;
 	font-weight: 100;
 	margin-bottom: 50px;
+	top: -14px;
 	
 	h2{
 	    font-weight: 100;
@@ -64,8 +74,8 @@
 	}
 
 	nav{
-		background-color: #ff8870;
-		margin-bottom: 50px;
+		background-color: #c71d3d;
+		margin-bottom: 30px;
 	}
 
 	a{
@@ -76,10 +86,6 @@
 	    padding: 15px 0;
 	    display: inline-block;
 	    margin-right: 10px;
-
-	    &:hover{
-	    	color: #ffd06b;
-	    }
 	}
 }	
 
@@ -138,7 +144,7 @@
 
 	p{
 		color: #fff;
-		padding: 0 20px 20px 20px;
+		padding: 10px 20px 20px 20px;
 		margin-bottom: 5px;
 
 	}
@@ -217,7 +223,10 @@
 }
 
 @media screen and (min-width: 630px){
-	
+	header{
+		margin-bottom: 15px;
+	}
+
 	.page_headline{
 		padding: 5%;
 	}
@@ -239,7 +248,11 @@
 		}
 
 		a{
-			padding: 15px;
+			padding: 2% 5%;
+
+		    &:hover{
+		    	color: #444;
+		    }
 		}
 	}
 

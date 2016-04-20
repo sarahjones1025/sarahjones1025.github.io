@@ -38,8 +38,7 @@ header{
 
 .top_nav{
 	text-align: center;
-	 background-color: rgba(45,45,45,0.7);
-    // background-color: #c71d3d;
+	background-color: rgba(45,45,45,0.7);
     padding: 5px 0;
     margin-bottom: 10px;
   
@@ -129,9 +128,15 @@ footer{
 	background-color: #f8f2f2;
 	font-size: .75em;
 	padding: 2% 7.5%;
+	
+	// p{
+	// 	float: left;
+	// }
 }
 
-
+#footer_icons{
+	padding: 0;
+}
 
 @media screen and (min-width: 630px){
 	
@@ -182,10 +187,24 @@ footer{
 		margin-right: 0;
 	}
 
+	.lower_nav{
+		p{
+			float: left;
+		}
+	}
+
+	#footer_icons{
+		ul{
+			margin: 0;
+			float: right;
+			width: 50%;
+			margin-top: 10px;
+		}
+	}
 }
 
 .box_1{
-	background-image: url(../img/ipad-mockup.jpg);
+	background-image: url(../img/handheld_mobile.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }

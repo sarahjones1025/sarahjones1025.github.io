@@ -92,6 +92,9 @@ footer {
   font-size: .75em;
   padding: 2% 7.5%; }
 
+#footer_icons {
+  padding: 0; }
+
 @media screen and (min-width: 630px) {
   .wrapper {
     max-width: 85%; }
@@ -122,9 +125,18 @@ footer {
       transition: bottom 0.5s ease; }
 
   .box_2, .box_4, .box_6 {
-    margin-right: 0; } }
+    margin-right: 0; }
+
+  .lower_nav p {
+    float: left; }
+
+  #footer_icons ul {
+    margin: 0;
+    float: right;
+    width: 50%;
+    margin-top: 10px; } }
 .box_1 {
-  background-image: url(../img/ipad-mockup.jpg);
+  background-image: url(../img/handheld_mobile.jpg);
   background-size: cover;
   background-repeat: no-repeat; }
 
@@ -545,6 +557,13 @@ th {
 #sccff_wrapper {
   margin: 0; }
 
+.splash_img {
+  width: 100%; }
+
+.top_img {
+  position: relative;
+  top: -10px; }
+
 .page_headline {
   background-color: #ffd06b;
   color: #fff;
@@ -562,7 +581,8 @@ th {
   text-align: center;
   position: relative;
   font-weight: 100;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  top: -14px; }
   .project_intro h2 {
     font-weight: 100;
     text-transform: uppercase;
@@ -589,8 +609,8 @@ th {
     list-style: none;
     font-size: 0.8em; }
   .project_intro nav {
-    background-color: #ff8870;
-    margin-bottom: 50px; }
+    background-color: #c71d3d;
+    margin-bottom: 30px; }
   .project_intro a {
     color: #fff;
     text-decoration: none;
@@ -599,8 +619,6 @@ th {
     padding: 15px 0;
     display: inline-block;
     margin-right: 10px; }
-    .project_intro a:hover {
-      color: #ffd06b; }
 
 .scope {
   text-align: center; }
@@ -641,7 +659,7 @@ th {
     padding: 20px; }
   #outer_list p {
     color: #fff;
-    padding: 0 20px 20px 20px;
+    padding: 10px 20px 20px 20px;
     margin-bottom: 5px; }
 
 .wireframes {
@@ -695,6 +713,9 @@ th {
     width: 95%; }
 
 @media screen and (min-width: 630px) {
+  header {
+    margin-bottom: 15px; }
+
   .page_headline {
     padding: 5%; }
 
@@ -708,7 +729,9 @@ th {
     text-align: center;
     margin-left: 0; }
   .project_intro a {
-    padding: 15px; }
+    padding: 2% 5%; }
+    .project_intro a:hover {
+      color: #444; }
 
   .scope h3 {
     margin-left: 0; }

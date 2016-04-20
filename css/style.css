@@ -146,6 +146,9 @@ footer {
   background-repeat: no-repeat; }
 
 @media screen and (min-width: 1020px) {
+  .wrapper {
+    max-width: 900px; }
+
   header {
     margin-bottom: 30px; }
     header h1 {

@@ -90,14 +90,16 @@ footer {
 .lower_nav {
   background-color: #f8f2f2;
   font-size: .75em;
-  padding: 2% 7.5%; }
+  padding: 2% 0; }
+  .lower_nav p {
+    text-align: center; }
 
 #footer_icons {
   padding: 0; }
 
 @media screen and (min-width: 630px) {
   .wrapper {
-    max-width: 85%; }
+    max-width: 80%; }
 
   header h1 {
     text-align: left; }
@@ -128,9 +130,12 @@ footer {
     margin-right: 0; }
 
   .lower_nav p {
-    float: left; }
+    text-align: left;
+    float: left;
+    width: 50%; }
 
   #footer_icons ul {
+    text-align: right;
     margin: 0;
     float: right;
     width: 50%;
@@ -146,9 +151,6 @@ footer {
     header h1 {
       font-size: 3em;
       margin-bottom: 0; }
-
-  .wrapper {
-    max-width: 866px; }
 
   .content {
     width: 31.3%;
@@ -190,12 +192,16 @@ footer {
     text-align: center;
     margin-top: 50px; }
   .contact_details li {
-    display: inline-block; }
-  .contact_details a {
-    padding: 10px; }
+    display: inline-block;
+    margin-right: 15px; }
+    .contact_details li:last-child {
+      margin-right: 0; }
   .contact_details img {
     height: 20px; }
 
+@media screen and (min-width: 630px) {
+  .contact_details {
+    padding: 0; } }
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.

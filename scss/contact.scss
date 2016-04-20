@@ -18,13 +18,24 @@
 
 	li{
 		display: inline-block;
+		margin-right: 15px;
+
+		&:last-child{
+			margin-right: 0;
+		}
 	}
 
-	a{
-		padding: 10px;
-	}
+	// a{
+	// 	padding: 10px;
+	// }
 
 	img{
 		height: 20px;
+	}
+}
+
+@media screen and (min-width: 630px){
+	.contact_details{
+		padding: 0;
 	}
 }

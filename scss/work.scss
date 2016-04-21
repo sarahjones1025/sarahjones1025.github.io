@@ -19,8 +19,9 @@ header{
 		color: #444;
 	    margin: 10px 0;
 	    font-size: 2.5em;
-	    font-weight: 100;
+	    // text-transform: none;
 	    text-align: center;
+	    font-family: 'Bad Script', cursive;
 	}
 
 	a{
@@ -127,9 +128,11 @@ header{
 }
 
 .counter{
-	a{
-		background-image: url(img/bucket_dude.jpg);
-	}
+	background-image: url(../img/bucket_dude.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 10%;
+	
 }
 
 footer{
@@ -176,6 +179,7 @@ footer{
 		a{
 			color: #c71d3d;
 			transition: box-shadow 1s, background-color 1s, color 1s; 
+			border: solid 1px #c71d3d;
 
 			&:hover{
 				background-color: #c71d3d;

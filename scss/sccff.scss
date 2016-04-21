@@ -264,6 +264,7 @@
 		a{
 			width: 35%;
 			transition: box-shadow 1s, background-color 1s, color 1s;
+			border-radius: 2px;
 
 			&:first-child{
 				float: left;

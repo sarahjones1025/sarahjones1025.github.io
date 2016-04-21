@@ -74,12 +74,14 @@ header {
 .box_1 {
   background-image: url(../img/handheld_mobile.jpg);
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  border-radius: 5px; }
 
 .box_2 {
   background-image: url(../img/marvel_bg_02.png);
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  border-radius: 5px; }
 
 .intro {
   background-color: #fcfafa;
@@ -144,8 +146,9 @@ footer {
     margin-bottom: 0; }
     .top_nav a {
       color: #c71d3d;
-      transition: box-shadow 1s, background-color 1s, color 1s;
-      border: solid 1px #c71d3d; }
+      transition: box-shadow .3s, background-color .3s, color .3s;
+      border: solid 1px #c71d3d;
+      border-radius: 2px; }
       .top_nav a:hover {
         background-color: #c71d3d;
         color: #fff;
@@ -154,10 +157,12 @@ footer {
   .content {
     float: left;
     width: 48%;
-    margin-right: 4%; }
+    margin-right: 4%;
+    border-radius: 5px; }
     .content a span {
       bottom: -100px;
-      transition: bottom 0.5s ease; }
+      transition: bottom 0.5s ease;
+      border-radius: 0 0 5px 5px; }
 
   .box_2, .box_4, .box_6 {
     margin-right: 0; }
@@ -770,7 +775,8 @@ th {
     margin-left: 0; }
   .project_intro a {
     width: 35%;
-    transition: box-shadow 1s, background-color 1s, color 1s; }
+    transition: box-shadow 1s, background-color 1s, color 1s;
+    border-radius: 2px; }
     .project_intro a:first-child {
       float: left; }
     .project_intro a:last-child {

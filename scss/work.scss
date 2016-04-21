@@ -124,6 +124,29 @@ header{
 	    font-size: 1em;
 	   	line-height: 1.5;
 	    font-weight: 100;
+
+	    &:nth-child(2){
+	    	text-align: center;
+	    	font-weight: bold;
+	    }
+	}
+
+	ul{
+		padding-left: 0;
+		text-align: center;
+	}
+
+	li{
+		display: inline-block;
+		margin-right: 15px;
+
+		&:last-child{
+			margin-right: 0;
+		}
+	}
+
+	img{
+		height: 50px;
 	}
 }
 
@@ -207,13 +230,13 @@ footer{
 		margin-right: 0;
 	}
 
-	.lower_nav{
-		p{
-			text-align: left;
-			float: left;
-			width: 50%;
-		} 
-	}
+	// .lower_nav{
+	// 	p{
+	// 		text-align: left;
+	// 		float: left;
+	// 		width: 50%;
+	// 	} 
+	// }
 
 	#footer_icons{
 		ul{
@@ -257,7 +280,7 @@ footer{
 	.intro{
 		padding: 2% 10%;
 		p{
-			width: 45%
+			text-align: center;
 		}
 	}
 	

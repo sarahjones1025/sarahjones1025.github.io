@@ -89,6 +89,19 @@ header {
     font-size: 1em;
     line-height: 1.5;
     font-weight: 100; }
+    .intro p:nth-child(2) {
+      text-align: center;
+      font-weight: bold; }
+  .intro ul {
+    padding-left: 0;
+    text-align: center; }
+  .intro li {
+    display: inline-block;
+    margin-right: 15px; }
+    .intro li:last-child {
+      margin-right: 0; }
+  .intro img {
+    height: 50px; }
 
 .counter {
   background-image: url(../img/bucket_dude.jpg);
@@ -146,11 +159,6 @@ footer {
   .box_2, .box_4, .box_6 {
     margin-right: 0; }
 
-  .lower_nav p {
-    text-align: left;
-    float: left;
-    width: 50%; }
-
   #footer_icons ul {
     text-align: right;
     margin: 0;
@@ -180,7 +188,7 @@ footer {
   .intro {
     padding: 2% 10%; }
     .intro p {
-      width: 45%; } }
+      text-align: center; } }
 @-webkit-keyframes wiggle {
   0% {
     -webkit-transform: rotate(4deg); }

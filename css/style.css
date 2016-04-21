@@ -220,7 +220,7 @@ footer {
     .contact_details li:last-child {
       margin-right: 0; }
   .contact_details img {
-    height: 20px; }
+    height: 50px; }
 
 @media screen and (min-width: 630px) {
   .contact_details {
@@ -837,6 +837,13 @@ th {
     background-color: #c71d3d;
     color: #fff;
     box-shadow: 1px 8px 8px rgba(45, 45, 45, 0.3); }
+
+#sub_footer ul {
+  text-align: center;
+  float: unset;
+  width: 100%; }
+#sub_footer img {
+  height: 25px; }
 
 .clearfix:before,
 .clearfix:after {

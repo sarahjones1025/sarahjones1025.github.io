@@ -74,14 +74,17 @@ header {
 .box_1 {
   background-image: url(../img/handheld_mobile.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 5px; }
+  background-repeat: no-repeat; }
 
 .box_2 {
   background-image: url(../img/marvel_bg_02.png);
   background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 5px; }
+  background-repeat: no-repeat; }
+
+.box_3 {
+  background-image: url(../img/counter_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 .intro {
   background-color: #fcfafa;

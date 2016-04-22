@@ -12,7 +12,6 @@
 
 .top_img{
 	position: relative;
-	top: -10px;
 }
 
 .page_headline{
@@ -34,7 +33,6 @@
 	position: relative;
 	font-weight: 100;
 	margin-bottom: 50px;
-	// top: -14px;
 	
 	h2{
 	    font-weight: 100;
@@ -74,7 +72,6 @@
 	}
 
 	nav{
-		// background-color: #c71d3d;
 		margin-bottom: 30px;
 	}
 
@@ -233,6 +230,7 @@
 }
 
 @media screen and (min-width: 630px){
+	
 	header{
 		margin-bottom: 15px;
 	}
@@ -378,10 +376,9 @@
 		}
 
 		img{
-		right: 30px;
-		top: 25px;
-
-	}
+			right: 30px;
+			top: 25px;
+		}
 	}
 }
 

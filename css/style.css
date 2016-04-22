@@ -9,6 +9,12 @@ body {
 .resume {
   width: 100%; }
 
+a {
+  border-radius: 2px; }
+
+img {
+  border-radius: 5px; }
+
 header {
   text-transform: uppercase; }
   header h1 {
@@ -602,8 +608,7 @@ th {
   width: 100%; }
 
 .top_img {
-  position: relative;
-  top: -10px; }
+  position: relative; }
 
 .page_headline {
   background-color: #ffd06b;
@@ -877,6 +882,13 @@ th {
   width: 100%; }
 #sub_footer img {
   height: 25px; }
+
+.counter_description {
+  padding: 5%;
+  text-align: center; }
+  .counter_description p {
+    line-height: 1.5;
+    font-style: normal; }
 
 .clearfix:before,
 .clearfix:after {

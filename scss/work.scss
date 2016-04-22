@@ -12,6 +12,14 @@ body{
 	width: 100%;
 }
 
+a{
+	border-radius: 2px;
+}
+
+img{
+	border-radius: 5px;
+}
+
 header{
 	text-transform: uppercase;
 	
@@ -19,7 +27,6 @@ header{
 		color: #444;
 	    margin: 10px 0;
 	    font-size: 2.5em;
-	    // text-transform: none;
 	    text-align: center;
 	    font-family: 'Bad Script', cursive;
 	}

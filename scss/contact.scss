@@ -10,6 +10,10 @@
 		font-weight: 100;
 	}
 
+	p{
+		font-style: italic;
+	}
+
 	ul{
 		padding-left: 0;
 		text-align: center;
@@ -30,9 +34,40 @@
 	}
 }
 
+.resume_link{
+	text-align: center;
+	text-transform: uppercase;
+	background-color: rgba(45,45,45,0.7);
+    padding: 10px;
+    margin-bottom: 20px;
+  	display: block;
+	text-decoration: none;
+    color: #fff;
+    font-weight: 100;
+}
+
+
 @media screen and (min-width: 630px){
 	
 	.contact_details{
 		padding: 0;
+	}
+
+	.resume_link{
+		color: #c71d3d;
+		background-color: #fff;
+		transition: box-shadow .3s, background-color .3s, color .3s; 
+		border: solid 1px #c71d3d;
+		border-radius: 2px;
+	    font-weight: 100;
+	    padding: 5px 10px;
+	    display: inline-block;
+	    margin-bottom: 0;
+
+		&:hover{
+			background-color: #c71d3d;
+			color: #fff;
+			box-shadow: 1px 8px 8px rgba(45,45,45,0.3);
+		}
 	}
 }

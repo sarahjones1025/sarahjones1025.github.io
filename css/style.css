@@ -92,6 +92,12 @@ header {
   background-size: cover;
   background-repeat: no-repeat; }
 
+.box_4 {
+  background-image: url(../img/30_days.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: solid 1px #444; }
+
 .intro {
   background-color: #fcfafa;
   padding: 2% 7.5%; }

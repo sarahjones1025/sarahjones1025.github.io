@@ -926,6 +926,9 @@ th {
     font-style: normal; }
 
 .thirty_days {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
   background-color: #eee;
   margin-bottom: 20px; }
   .thirty_days h2 {
@@ -938,10 +941,13 @@ th {
     text-transform: initial;
     padding: 0 12.5%; }
   .thirty_days div {
+    box-sizing: border-box;
     padding: 20px 0;
-    width: 50%;
-    float: left; }
+    margin-bottom: 0; }
 
+@media screen and (min-width: 630px) {
+  .thirty_days div {
+    width: 50%; } }
 .clearfix:before,
 .clearfix:after {
   content: "";

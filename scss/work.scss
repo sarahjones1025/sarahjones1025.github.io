@@ -123,16 +123,17 @@ header{
 }
 
 .box_3{
-	background-image: url(../img/counter_bg.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-.box_4{
 	background-image: url(../img/30_days.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	border: solid 1px #444;
+	box-sizing: border-box;
+}
+
+.box_4{
+	background-image: url(../img/counter_bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 
